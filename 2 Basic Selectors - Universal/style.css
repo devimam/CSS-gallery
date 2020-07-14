@@ -1,0 +1,18 @@
+/* universal selector */
+
+* {
+  color: chocolate;
+  font-size: 120%;
+}
+
+* [lang^=en] {
+  color: green;
+}
+
+*.warning {
+  color: red;
+}
+
+*#maincontent {
+  border: 1px solid blue;
+}

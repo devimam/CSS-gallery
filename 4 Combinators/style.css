@@ -1,0 +1,19 @@
+/* combinators */
+/* child combinator */
+span{
+    background-color: white;
+}
+
+div > span {
+  background-color: DodgerBlue;
+}
+
+
+/* descendant selector */
+li {
+  list-style-type: disc;
+}
+
+li li {
+  list-style-type: circle;
+}

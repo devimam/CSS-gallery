@@ -1,0 +1,8 @@
+/* grouping selectors */
+
+ #main,
+ .content,
+ article {
+   font-size: 1.3em;
+   color: green;
+ }

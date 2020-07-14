@@ -1,0 +1,22 @@
+/* attribute selector */
+
+[href]{
+  color: blue;
+}
+
+a[target="_blank"]{
+    color: green;
+}
+
+a[class~="active"]{
+    border: 1px solid blue;
+    font-size: 120%;
+}
+
+a[href^="#"] {
+  background-color: gold;
+}
+
+a[href$=".org"] {
+  color: red;
+}

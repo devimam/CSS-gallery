@@ -1,0 +1,13 @@
+/* class selector */
+
+.red{
+    color: red;
+}
+
+p.yellow-bg{
+    background: yellow;
+}
+
+p.red.yellow-bg.blue-border{
+    border: 1px solid blue;
+}
