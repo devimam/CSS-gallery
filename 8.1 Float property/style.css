@@ -1,0 +1,24 @@
+.content{
+    border: 1px solid blue;
+}
+
+/* floating positions */
+#item1{
+    height: 80px;
+    width: 80px;
+    display:inline-block;
+    background-color: orange;
+    float: left;
+}
+
+#item2{
+    height: 120px;
+    width: 80px;
+    display:inline-block;
+    background-color: aqua;
+    float: right;
+}
+
+p{
+    clear: both;
+}
