@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CSS Selectors</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- checked, disabled, focus, read-only, required, invalid, valid pseudo-class -->
+        <form>
+            <!-- :checked -->
+            <h1>:checked Pseudo Class</h1>
+            <div>
+              <input type="radio" name="radiobtn" id="radiobtn1">
+              <label for="yes">Yes</label>
+
+              <input type="radio" name="radiobtn" id="radiobtn2" checked>
+              <label for="no">No</label>
+            </div>
+
+            <div>
+              <input type="checkbox" name="my-checkbox" id="opt-in">
+              <label for="opt-in">Check me!</label>
+            </div>
+
+            <br/><br/>
+            <!-- :disabled, :read-only, :focus -->
+            <h1>:disabled, :read-only, :focus Pseudo Class</h1>
+            <div>
+                Disabled: <input type="text" value='disabled' disabled><br/><br/>
+                Readonly: <input type="search" value="readonly" readonly><br/><br/>
+                Focus: <input type="url" value="www.google.com"><br/><br/>
+            </div>
+
+            <!-- :required, :valid, :invalid -->
+            <h1>:required, :valid, :invalid Pseudo Class</h1>
+            <div>
+                Required: <input type="password" title="required field" id="required" required><br/><br/>
+                Valid: <input type="email" value="example@gmail.com"><br/>
+            </div>
+        </form>
+    </body>
+</html>

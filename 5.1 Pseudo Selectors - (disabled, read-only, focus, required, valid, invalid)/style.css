@@ -1,0 +1,50 @@
+/* basic configuration */
+*{
+    box-sizing: border-box;
+}
+
+/* using pseudo-class :checked */
+input[type='radio']:checked + label{
+    font-size: 1.3em;
+    color: green;
+}
+
+input[type='checkbox']:checked, input[type="radio"]:checked{
+    width: 25px;
+    height: 25px;
+}
+
+input[type='checkbox']:checked+label{
+    font-size: 1.3em;
+    color: green;
+}
+
+/* using pseudo class :disabled, :read-only, :focus */
+input:disabled{
+    background-color: #669999;
+    color: #00ffff;
+}
+
+input:read-only{
+    background-color: #ffffb3;
+}
+
+input[type='url']:focus{
+    outline: 2px solid gold;
+}
+
+/* using :required, :invalid, :valid pseudo class */
+input:required{
+    outline: 1px solid #ff33cc;
+    border: 1px solid #ff33cc;
+}
+
+input[type='email']:valid{
+    border: 1px solid green;
+    outline: 1px solid green;
+}
+
+input[type="email"]:invalid{
+    border: 1px solid red;
+    outline: 1px solid red;
+}
