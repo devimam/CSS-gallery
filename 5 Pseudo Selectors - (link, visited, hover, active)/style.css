@@ -1,0 +1,38 @@
+/* basic configuration */
+*{
+    box-sizing: border-box;
+}
+
+img{
+    height: 26px;
+    width:26px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+
+/* using pseudo-classes */
+/* active, link, visited, hover pseudo-class */
+a:link {
+    border: 2px solid blue;
+}
+
+a:visited {
+    border: 2px solid green;
+}
+
+a:hover {
+    border: 2px solid gold;
+    width:
+}
+
+a:active {
+    border: 2px solid aqua;
+}

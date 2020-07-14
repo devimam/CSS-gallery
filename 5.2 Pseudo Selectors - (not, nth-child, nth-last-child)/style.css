@@ -1,0 +1,32 @@
+/* basic configuration */
+*{
+    box-sizing: border-box;
+}
+
+/* using :not() pseudo-class */
+p:not(.fancy){
+    color: gold;
+}
+
+div :not(li):not(p){
+    border: 1px solid blue;
+}
+
+
+/* :nth-child, :nth-last-child pseudo class */
+ul li:nth-child(3){
+    color: red;
+}
+
+ul li:nth-last-child(2){
+    color: green;
+}
+
+
+ol li:nth-child(even){
+    background-color: yellow;
+}
+
+ol li:nth-child(3n+1){
+    font-size: 140%;
+}

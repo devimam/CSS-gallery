@@ -1,0 +1,26 @@
+/* for the first div */
+div#test span {
+    color: green;
+}
+div.test-class span {
+    color: aqua;
+}
+div span {
+    color: blue;
+}
+span {
+    color: red;
+}
+
+/* for the second div */
+div#test1 span{
+    color: red;
+}
+
+div#test1 span#span-id{
+    color: green;
+}
+
+div#test1 span.span-class{
+    color: blue;
+}

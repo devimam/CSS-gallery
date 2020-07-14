@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CSS Precedence</title>
+        <link rel="stylesheet" href="style.css">
+
+        <!-- internal style sheet -->
+        <style>
+            h1#authorint{
+                color: green;
+                text-align: right;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- browser default user agent stylesheet -->
+        <h1>User Agent Auto Style Heading(h1) with predefined font-size and margins</h1>
+
+        <!-- programmar(author) set stylesheet from style.css -->
+        <div id="authorext">
+            <h1>Author changes of Heading(h1) from external style sheet</h1>
+
+            <!-- programmar(author) set stylesheet from internal style sheet -->
+            <h1 id="authorint">Author changes of Heading(h1) from internal style sheet</h1>
+
+            <!-- programmar(author) set stylesheet from inline style sheet -->
+            <h1 style="color:orange;text-align:left;">Author changes of Heading(h1) from inline style sheet</h1>
+        </div>
+
+        <div>
+            <p>If all of these not works then the last option is to use !important to forcefully provide a higher importance. Always try to avoid the use of !importance.</p>
+        </div>
+    </body>
+</html>

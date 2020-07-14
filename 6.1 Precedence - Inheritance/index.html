@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CSS Precedence</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- css precedence - inheritance -->
+        <h1>Interitance</h1>
+        <hr/>
+        The properties of main div are:
+        <ul>
+            <li>color:gold; - inherited</li>
+            <li>border: 1px solid red; - not inherited</li>
+            <li>font-size: 1.3em; - inherited </li>
+            <li>text-align: center; - inherited</li>
+            <li>height: 500px; - not inherited</li>
+        </ul>
+        <br/>
+        <div id="main">
+            <h1>Main Div Element</h1>
+            <p>Sample paragraph within main div element</p>
+
+            <div id="sub">
+                <h1>Sub Div Element</h1>
+                <p>Sample paragraph within sub div element. It's color is red, font-size increased but has not border.</p>
+            </div>
+        </div>
+    </body>
+</html>
